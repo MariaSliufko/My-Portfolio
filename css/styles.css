@@ -5,22 +5,38 @@ body {
 }
 
 h1 {
-    margin-top: 0;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+   
 }
 
 h2 {
+    color: #66BFBF;
     font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
 }
 
 h3 {
-    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif; 
 }
 
 .top-container {
     background-color: #E4F9F5;
     position: relative;
     padding-top: 100px;
+}
+
+.middle-container {
+  
+}
+
+.bottom-container {
+    background-color: #11999E;
+    
 }
 
 .full {
@@ -36,4 +52,13 @@ h3 {
     position: absolute;
     left: 300px;
     bottom: 300px;
+}
+
+.photoofme {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid #E4F9F5;
+    margin: 0 auto;
+    margin-top: 50px;
 }
